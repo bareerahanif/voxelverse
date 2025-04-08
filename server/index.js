@@ -1,28 +1,21 @@
-// index.js
-const express = require("express");
-const http = require("http");
-const socketIO = require("socket.io");
-const cors = require("cors");
+// ws-server.js
+const WebSocket = require("ws");
 
-const app = express();
-const server = http.createServer(app);
-const io = socketIO(server, {
-  cors: { origin: "*" }
-});
+const wss = new WebSocket.Server({ port: 3000 });
 
-app.use(cors());
+wss.on("connection", (ws) => {
+  console.log("Client connected");
 
-io.on("connection", (socket) => {
-  console.log("Player connected:", socket.id);
+  ws.on("message", (msg) => {
+    console.log("Received:", msg);
 
-  socket.on("player-move", (data) => {
-    socket.broadcast.emit("update-player", { id: socket.id, ...data });
+    // Echo message back
+    ws.send("Echo: " + msg);
   });
 
-  socket.on("disconnect", () => {
-    console.log("Player disconnected:", socket.id);
-    socket.broadcast.emit("remove-player", { id: socket.id });
+  ws.on("close", () => {
+    console.log("Client disconnected");
   });
 });
 
-server.listen(3000, () => console.log("Server running on http://localhost:3000"));
+console.log("Raw WebSocket server running on ws://localhost:3000");
