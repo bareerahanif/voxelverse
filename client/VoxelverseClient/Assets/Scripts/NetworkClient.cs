@@ -20,37 +20,37 @@ public class NetworkClient : MonoBehaviour
         // Check for prefab assignment
         if (playerPrefab == null)
         {
-            Debug.LogWarning("❗ Player Prefab is not assigned. Multiplayer client will not start.");
+            Debug.LogWarning("Player Prefab is not assigned. Multiplayer client will not start.");
             return;
         }
 
         if (alreadyConnected || isConnected)
         {
-            Debug.Log("⚠️ Preventing duplicate WebSocket connection");
+            Debug.Log("Preventing duplicate WebSocket connection");
             return;
         }
 
         alreadyConnected = true;
 
-        websocket = new WebSocket("ws://192.168.100.105:3000"); // Replace with your actual server IP
+        websocket = new WebSocket("ws://YOUR_SERVER_IP:3000"); // Replace with your actual server IP
 
         websocket.OnOpen += () =>
         {
-            Debug.Log("✅ Connected to server");
+            Debug.Log("Connected to server");
             isConnected = true;
         };
 
         websocket.OnMessage += (bytes) =>
         {
             string message = Encoding.UTF8.GetString(bytes);
-            Debug.Log("📨 Incoming: " + message);
+            Debug.Log("Incoming: " + message);
 
             var data = JsonUtility.FromJson<ServerMessage>(message);
 
             if (data.type == "id")
             {
                 myId = data.id;
-                Debug.Log("🆔 My ID: " + myId);
+                Debug.Log("My ID: " + myId);
                 return;
             }
 
@@ -66,7 +66,7 @@ public class NetworkClient : MonoBehaviour
                     ghost.GetComponent<Renderer>().material.color = Color.red;
                     ghost.transform.position = new Vector3(data.position.x, data.position.y, data.position.z);
                     players[data.id] = ghost;
-                    Debug.Log("👤 Ghost spawned: " + data.id);
+                    Debug.Log("Ghost spawned: " + data.id);
                 }
             }
             else if (data.type == "player-move")
@@ -85,15 +85,15 @@ public class NetworkClient : MonoBehaviour
                 {
                     Destroy(players[data.id]);
                     players.Remove(data.id);
-                    Debug.Log("❌ Ghost removed: " + data.id);
+                    Debug.Log("Ghost removed: " + data.id);
                 }
             }
         };
 
-        websocket.OnError += (e) => Debug.LogError("❗ WebSocket error: " + e);
+        websocket.OnError += (e) => Debug.LogError("WebSocket error: " + e);
         websocket.OnClose += (e) =>
         {
-            Debug.Log("🔌 Disconnected from server");
+            Debug.Log("Disconnected from server");
             isConnected = false;
         };
 
