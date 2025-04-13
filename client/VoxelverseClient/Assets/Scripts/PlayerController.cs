@@ -1,23 +1,28 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    private Rigidbody rb;
 
-    private void Start()
+    private Rigidbody rb;
+    private Vector3 movement;
+
+    void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    void Update()
     {
         float moveX = Input.GetAxis("Horizontal"); // A/D or Left/Right
         float moveZ = Input.GetAxis("Vertical");   // W/S or Up/Down
 
-        Vector3 move = new Vector3(moveX, 0f, moveZ);
-        Vector3 newPos = rb.position + move * moveSpeed * Time.fixedDeltaTime;
+        movement = new Vector3(moveX, 0, moveZ);
+    }
 
-        rb.MovePosition(newPos);
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
