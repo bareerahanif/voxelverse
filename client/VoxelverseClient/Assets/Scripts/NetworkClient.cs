@@ -32,7 +32,7 @@ public class NetworkClient : MonoBehaviour
 
         alreadyConnected = true;
 
-        websocket = new WebSocket("ws://192.168.100.105:3000"); // Replace with your actual server IP
+        websocket = new WebSocket("ws://CHANGE IT:3000"); // Replace with your actual server IP
 
         websocket.OnOpen += () =>
         {
