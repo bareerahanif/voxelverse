@@ -1,250 +1,227 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1744544350965495, "dur":29539, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544350995048, "dur":170, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544350995274, "dur":927, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544350996336, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1744544350996394, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0.resS" }}
-,{ "pid":12345, "tid":0, "ts":1744544350999369, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1744544350999524, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1744544350999595, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1744544350999723, "dur":82, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1744544350999893, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1744544350996229, "dur":3986, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351000217, "dur":486473, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351486691, "dur":288, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351486979, "dur":74, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351487053, "dur":104, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351487157, "dur":52, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351487565, "dur":3497, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1744544351015212, "dur":321, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351015534, "dur":400, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351015935, "dur":1362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351021704, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351019986, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1744544351021824, "dur":168, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351022332, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1744544351025667, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351029433, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351040965, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351036353, "dur":4749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351041189, "dur":5007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351046262, "dur":5140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351051431, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351051429, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351051712, "dur":101, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351051818, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351058756, "dur":6429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351065231, "dur":7402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351072753, "dur":7169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351080052, "dur":49024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351129163, "dur":64817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351201402, "dur":636, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351194046, "dur":8012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351210356, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351202119, "dur":8348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1744544351214011, "dur":987, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1744544351210533, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1744544351215094, "dur":34439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1744544351249569, "dur":237118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1744544351015209, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1744544351015803, "dur":1540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1744544351076884, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1744544351079565, "dur":49784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1744544351129488, "dur":80329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1744544351209875, "dur":554, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1744544351210437, "dur":13953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1744544351224531, "dur":26538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1744544351251103, "dur":235737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1744544351015128, "dur":1964, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1744544351092465, "dur":460, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":3, "ts":1744544351093012, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1744544351093221, "dur":2733, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1744544351095957, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1744544351096437, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerc8dfccc8-inputdata.json" }}
-,{ "pid":12345, "tid":3, "ts":1744544351093009, "dur":3708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1744544351097273, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1744544351097812, "dur":385799, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1744544351484941, "dur":425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1744544351484940, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1744544351485393, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1744544351015520, "dur":456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1744544351015977, "dur":1228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1744544351021725, "dur":211, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1744544351019996, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1744544351022024, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1744544351022434, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1744544351025348, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351025712, "dur":9023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351034802, "dur":6803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351048207, "dur":151, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1744544351041647, "dur":6761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351048442, "dur":736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351048439, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351049210, "dur":4232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351053587, "dur":6345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351059997, "dur":6151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351066222, "dur":232, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1744544351066460, "dur":8684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351075436, "dur":192287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1744544351267772, "dur":219061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1744544351015397, "dur":481, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1744544351015879, "dur":1432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1744544351071732, "dur":6397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1744544351078193, "dur":51582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1744544351129910, "dur":850, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1744544351130767, "dur":145916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1744544351276717, "dur":210011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1744544351015609, "dur":694, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1744544351016304, "dur":823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1744544351017158, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1744544351017143, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1744544351028973, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1744544351036326, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1744544351031898, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351036440, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351040012, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351044020, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351050065, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\endel.nativewebsocket.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351050063, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/endel.nativewebsocket.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351050246, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/endel.nativewebsocket.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351054464, "dur":7928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351062433, "dur":6842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351069352, "dur":9536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351078943, "dur":46806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351125799, "dur":13454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351139316, "dur":133163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1744544351272522, "dur":214330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1744544351015701, "dur":382, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1744544351016083, "dur":1141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1744544351056766, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1744544351059093, "dur":7174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351066516, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351082337, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1744544351073874, "dur":8535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351082479, "dur":119011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351201548, "dur":4934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351206557, "dur":30195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1744544351236833, "dur":15837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":7, "ts":1744544351252699, "dur":233980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1744544351015781, "dur":1321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1744544351018226, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/app.info" }}
-,{ "pid":12345, "tid":8, "ts":1744544351021576, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1744544351024817, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1744544351027235, "dur":5597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1744544351033124, "dur":5523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351038768, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351043428, "dur":6296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351049748, "dur":1251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351049746, "dur":1255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351051032, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351057132, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351063810, "dur":6718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351082031, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1744544351070572, "dur":11574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351082206, "dur":117713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351199968, "dur":181, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1744544351200157, "dur":73075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1744544351273297, "dur":213549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1744544351015899, "dur":1435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1744544351091054, "dur":30178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1744544351121341, "dur":28058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1744544351149454, "dur":51183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1744544351200697, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1744544351202917, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1744544351205742, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1744544351211916, "dur":4568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1744544351216590, "dur":35776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1744544351252402, "dur":234281, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1744544351015962, "dur":1308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1744544351019723, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1744544351021905, "dur":110, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1744544351022489, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1744544351025769, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient.exe" }}
-,{ "pid":12345, "tid":10, "ts":1744544351029254, "dur":9083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351038394, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351042690, "dur":5927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351048640, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351048638, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351048860, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351054226, "dur":6876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351061164, "dur":7301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351068579, "dur":149, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1744544351068734, "dur":10856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351079647, "dur":59526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351139501, "dur":134089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1744544351273616, "dur":213141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1744544351016036, "dur":1222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1744544351073698, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1744544351076256, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1744544351079860, "dur":48020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1744544351127944, "dur":21063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1744544351149068, "dur":129343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1744544351278444, "dur":208266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351016085, "dur":1081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351017186, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":12, "ts":1744544351017177, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1744544351028565, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1744544351031904, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351036768, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351040496, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351051320, "dur":157, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351044301, "dur":7193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351051544, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351051542, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351051709, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351051827, "dur":5748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351057690, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351073244, "dur":148, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351064861, "dur":8549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351082357, "dur":3823, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1744544351073535, "dur":12662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351086397, "dur":234502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1744544351320926, "dur":165768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1744544351016146, "dur":1009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1744544351058967, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1744544351055953, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":13, "ts":1744544351059141, "dur":7657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1744544351066885, "dur":9615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1744544351076607, "dur":52460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1744544351129137, "dur":10053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1744544351139252, "dur":180788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1744544351320070, "dur":166710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1744544351016194, "dur":987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1744544351041821, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1744544351043865, "dur":5510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351049402, "dur":828, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351049399, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351050254, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351054751, "dur":6680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351061487, "dur":6196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351074507, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1744544351067736, "dur":6844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351074708, "dur":9000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351083753, "dur":55691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351139533, "dur":136202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1744544351275764, "dur":210979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1744544351016264, "dur":878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1744544351042417, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":15, "ts":1744544351044526, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351050142, "dur":433, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351050140, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351050604, "dur":5086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351055745, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351062132, "dur":6715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351077378, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1744544351068900, "dur":8547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351077602, "dur":7516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351085185, "dur":189009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1744544351274226, "dur":212576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1744544351016323, "dur":790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1744544351069713, "dur":8090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":16, "ts":1744544351077855, "dur":47725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1744544351125648, "dur":23351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1744544351149096, "dur":52688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1744544351201843, "dur":9792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1744544351211766, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":16, "ts":1744544351215482, "dur":224, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1744544351215714, "dur":33460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0" }}
-,{ "pid":12345, "tid":16, "ts":1744544351249209, "dur":237472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1744544351494397, "dur":1772, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1745072122988591, "dur":24627, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123013224, "dur":200, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123013474, "dur":533, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123014172, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1745072123015315, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1745072123014039, "dur":3192, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123017233, "dur":125185, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123142420, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123142597, "dur":216, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123142994, "dur":114, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123143232, "dur":1799, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1745072123014492, "dur":2778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123017283, "dur":293, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123017577, "dur":1251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123018880, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123019372, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123019855, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1745072123019986, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745072123019984, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745072123022817, "dur":4464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1745072123027307, "dur":115153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123014747, "dur":2584, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123017344, "dur":317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123017662, "dur":1123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123018828, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123019539, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123019993, "dur":282, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745072123019992, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1745072123020321, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123020400, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123020809, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123021163, "dur":1050, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123022243, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123022532, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123022826, "dur":10074, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1745072123022825, "dur":10077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1745072123032903, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1745072123032985, "dur":109447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123014676, "dur":2636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123017325, "dur":330, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123017655, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123018809, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1745072123018802, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1745072123018871, "dur":507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123019533, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123019808, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1745072123019863, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123020095, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123020532, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123021003, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123021245, "dur":983, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123022238, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123022415, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1745072123022830, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1745072123026810, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1745072123028707, "dur":113790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123014850, "dur":2523, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123017384, "dur":131, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123017516, "dur":1335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123018868, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1745072123018924, "dur":349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123019328, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123019812, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1745072123019990, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\endel.nativewebsocket.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745072123019989, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/endel.nativewebsocket.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745072123022737, "dur":4751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/endel.nativewebsocket.dll" }}
+,{ "pid":12345, "tid":4, "ts":1745072123027508, "dur":114956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123014478, "dur":2780, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123017267, "dur":350, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123017617, "dur":1188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123018852, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123019389, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123019846, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123020048, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123020195, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123020467, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123020790, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123021202, "dur":1056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123022267, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1745072123022811, "dur":4785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1745072123027611, "dur":114851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123014593, "dur":2697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123017301, "dur":380, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123017682, "dur":1087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123018776, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1745072123018827, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123019463, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123019800, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1745072123020016, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745072123020015, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745072123022852, "dur":4697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1745072123027565, "dur":114850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123014647, "dur":2654, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123017308, "dur":364, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123017672, "dur":1105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123018819, "dur":597, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123019426, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient.exe" }}
+,{ "pid":12345, "tid":7, "ts":1745072123019485, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123019616, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1745072123019927, "dur":428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745072123019926, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745072123022881, "dur":4908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1745072123027807, "dur":114670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745072123014402, "dur":2846, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745072123017258, "dur":1482, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745072123019325, "dur":540, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":8, "ts":1745072123019868, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1745072123020043, "dur":12831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1745072123033110, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerc8dfccc8-inputdata.json" }}
+,{ "pid":12345, "tid":8, "ts":1745072123019867, "dur":13411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1745072123033651, "dur":59, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1745072123034030, "dur":103289, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1745072123138578, "dur":2362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1745072123138577, "dur":2366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1745072123140975, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1745072123014807, "dur":2546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123017363, "dur":308, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123017671, "dur":1145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123018870, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123019445, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123019504, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1745072123019982, "dur":748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745072123019980, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745072123022899, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1745072123027457, "dur":115026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123014889, "dur":2497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123017387, "dur":1362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123018766, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123018855, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123018945, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1745072123019051, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123019638, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1745072123019939, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745072123019938, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745072123022867, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1745072123027753, "dur":114727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123014923, "dur":2476, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123017400, "dur":1351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123018777, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1745072123018758, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1745072123018829, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123018952, "dur":549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123019509, "dur":331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123019847, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123020173, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123020436, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123020498, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123020860, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123021207, "dur":1028, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123022296, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123022542, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1745072123022905, "dur":4100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1745072123027024, "dur":115446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123014958, "dur":2455, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123017413, "dur":1496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123018919, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1745072123018911, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1745072123019050, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123019561, "dur":711, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123020280, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123020661, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123021042, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123021277, "dur":999, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123022388, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123022820, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1745072123022818, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1745072123022918, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1745072123022987, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1745072123027164, "dur":115253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123014985, "dur":2450, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123017436, "dur":1485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123018959, "dur":620, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123019613, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123019842, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123020345, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123020694, "dur":454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123021159, "dur":1066, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123022236, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123022407, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1745072123022779, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1745072123022910, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/level0.resS" }}
+,{ "pid":12345, "tid":13, "ts":1745072123026718, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1745072123028500, "dur":113972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123015027, "dur":2423, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123017451, "dur":1472, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123018938, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1745072123018924, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1745072123019064, "dur":614, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123019691, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123020042, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123020306, "dur":349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123020662, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123021002, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123021309, "dur":907, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123022230, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123022403, "dur":444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1745072123022875, "dur":4268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1745072123027163, "dur":115256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123015075, "dur":2389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123017465, "dur":1433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123018937, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123019365, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1745072123019418, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123019739, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123020306, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123020654, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123021060, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123021248, "dur":964, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123022306, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123022562, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1745072123022880, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1745072123025827, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1745072123029067, "dur":113376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123015167, "dur":2307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123017474, "dur":1409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123018935, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":16, "ts":1745072123018911, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1745072123019052, "dur":583, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123019651, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123019859, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1745072123020007, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\voxelverse\\voxelverse\\client\\VoxelverseClient\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745072123020005, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745072123022894, "dur":4315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/baree/OneDrive/Desktop/2/VoxelverseClient_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1745072123027225, "dur":115196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1745072123147015, "dur":1071, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

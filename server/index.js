@@ -11,6 +11,7 @@ wss.on("connection", (ws) => {
   console.log("Player connected:", id);
   ws.send(JSON.stringify({ type: "id", id }));
 
+  // Send info about existing players to the new player
   for (let pid in players) {
     if (pid !== id) {
       ws.send(JSON.stringify({
@@ -21,6 +22,7 @@ wss.on("connection", (ws) => {
     }
   }
 
+  // Notify others about the new player (excluding the new one)
   broadcast({
     type: "player-joined",
     id: id,
@@ -38,8 +40,17 @@ wss.on("connection", (ws) => {
           type: "player-move",
           id: ws.id,
           position: data.position
-        }, ws);
+        }, ws); // skip sender to avoid ghost update
       }
+
+      else if (data.type === "chat") {
+        broadcast({
+          type: "chat",
+          id: ws.id,
+          msg: data.msg
+        }); // include sender so they see their message
+      }
+
     } catch (err) {
       console.error("Invalid JSON:", message);
     }
@@ -56,6 +67,7 @@ wss.on("connection", (ws) => {
   });
 });
 
+// Broadcast message to all (optionally excluding one client)
 function broadcast(message, excludeWs = null) {
   const msg = JSON.stringify(message);
   wss.clients.forEach((client) => {

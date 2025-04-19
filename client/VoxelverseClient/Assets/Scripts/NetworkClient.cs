@@ -32,7 +32,7 @@ public class NetworkClient : MonoBehaviour
 
         alreadyConnected = true;
 
-        websocket = new WebSocket("ws://YOUR_SERVER_IP:3000"); // Replace with your actual server IP
+        websocket = new WebSocket("ws://192.168.100.105:3000"); // Replace with your actual server IP
 
         websocket.OnOpen += () =>
         {
@@ -88,6 +88,18 @@ public class NetworkClient : MonoBehaviour
                     Debug.Log("Ghost removed: " + data.id);
                 }
             }
+            else if (data.type == "chat")
+            {
+                string senderId = data.id;
+                string msg = data.msg;
+
+                var chatManager = FindObjectOfType<ChatManager>();
+                if (chatManager != null)
+                {
+                    chatManager.ReceiveChatMessage(senderId, msg);
+                }
+            }
+
         };
 
         websocket.OnError += (e) => Debug.LogError("WebSocket error: " + e);
@@ -137,6 +149,24 @@ public class NetworkClient : MonoBehaviour
         }
     }
 
+    public async void SendChatMessage(string message)
+    {
+        if (websocket.State == WebSocketState.Open && !string.IsNullOrEmpty(myId))
+        {
+            var chatMessage = new ChatMessage
+            {
+                type = "chat",
+                id = myId,
+                msg = message
+            };
+
+            string json = JsonUtility.ToJson(chatMessage);
+            Debug.Log("Sending chat message JSON: " + json); // Optional: for debug
+            await websocket.SendText(json);
+        }
+    }
+
+
     async void OnApplicationQuit()
     {
         if (websocket != null && websocket.State == WebSocketState.Open)
@@ -153,6 +183,7 @@ public class NetworkClient : MonoBehaviour
     {
         public string type;
         public string id;
+        public string msg;
         public PositionData position;
     }
 
@@ -165,6 +196,15 @@ public class NetworkClient : MonoBehaviour
     }
 
     [System.Serializable]
+    public class ChatMessage
+    {
+        public string type;
+        public string id;
+        public string msg;
+    }
+
+
+    [System.Serializable]
     public class PositionData
     {
         public float x;
@@ -172,3 +212,4 @@ public class NetworkClient : MonoBehaviour
         public float z;
     }
 }
+
