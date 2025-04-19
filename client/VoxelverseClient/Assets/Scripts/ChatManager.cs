@@ -6,6 +6,7 @@ public class ChatManager : MonoBehaviour
 {
     public TMP_InputField inputField;
     public TMP_Text chatDisplay;
+    public ScrollRect scrollrect;
 
     [SerializeField] NetworkClient client;
 

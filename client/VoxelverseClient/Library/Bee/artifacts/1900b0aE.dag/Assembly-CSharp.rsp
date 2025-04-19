@@ -360,6 +360,7 @@
 -analyzer:"D:/Unity/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ChatManager.cs"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/NetworkClient.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0

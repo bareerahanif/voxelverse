@@ -50,9 +50,11 @@ public class NetworkClient : MonoBehaviour
             if (data.type == "id")
             {
                 myId = data.id;
-                Debug.Log("My ID: " + myId);
+                string username = PlayerPrefs.GetString("Username", "Player");
+                Debug.Log($"My ID: {myId} | Username: {username}");
                 return;
             }
+
 
             if (string.IsNullOrEmpty(myId)) return;
 
@@ -161,7 +163,7 @@ public class NetworkClient : MonoBehaviour
             };
 
             string json = JsonUtility.ToJson(chatMessage);
-            Debug.Log("Sending chat message JSON: " + json); // Optional: for debug
+            Debug.Log("Sending chat message JSON: " + json); // for debugging
             await websocket.SendText(json);
         }
     }
