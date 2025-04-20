@@ -10,6 +10,7 @@ public class NetworkClient : MonoBehaviour
 
     WebSocket websocket;
     string myId;
+    string username;
     public GameObject playerPrefab;
 
     Dictionary<string, GameObject> players = new();
@@ -32,7 +33,13 @@ public class NetworkClient : MonoBehaviour
 
         alreadyConnected = true;
 
-        websocket = new WebSocket("ws://CHANGE IT:3000"); // Replace with your actual server IP
+        // Load server IP and username from PlayerPrefs
+        username = PlayerPrefs.GetString("Username", "Player");
+        string ip = PlayerPrefs.GetString("ServerIP", "CHANGE IT"); // fallback to default
+        string url = $"ws://{ip}:3000";
+
+        Debug.Log("Connecting to: " + url);
+        websocket = new WebSocket(url);
 
         websocket.OnOpen += () =>
         {
@@ -50,11 +57,9 @@ public class NetworkClient : MonoBehaviour
             if (data.type == "id")
             {
                 myId = data.id;
-                string username = PlayerPrefs.GetString("Username", "Player");
                 Debug.Log($"My ID: {myId} | Username: {username}");
                 return;
             }
-
 
             if (string.IsNullOrEmpty(myId)) return;
 
@@ -101,7 +106,6 @@ public class NetworkClient : MonoBehaviour
                     chatManager.ReceiveChatMessage(senderId, msg);
                 }
             }
-
         };
 
         websocket.OnError += (e) => Debug.LogError("WebSocket error: " + e);
@@ -163,11 +167,10 @@ public class NetworkClient : MonoBehaviour
             };
 
             string json = JsonUtility.ToJson(chatMessage);
-            Debug.Log("Sending chat message JSON: " + json); // for debugging
+            Debug.Log("Sending chat message JSON: " + json);
             await websocket.SendText(json);
         }
     }
-
 
     async void OnApplicationQuit()
     {
@@ -205,7 +208,6 @@ public class NetworkClient : MonoBehaviour
         public string msg;
     }
 
-
     [System.Serializable]
     public class PositionData
     {
@@ -214,4 +216,3 @@ public class NetworkClient : MonoBehaviour
         public float z;
     }
 }
-
