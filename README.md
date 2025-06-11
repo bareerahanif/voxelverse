@@ -49,21 +49,6 @@
 
 ---
 
-## Project Status
-
-| Phase                        | Status          |
-|-----------------------------|-----------------|
-| GitHub + folder setup     | Complete         |
-| Unity project w/ movement | Complete         |
-| Raw WebSocket backend     | Complete         |
-| Unity-WebSocket connection | In progress      |
-| Player sync + chat UI     | In progress      |
-| EC2 deployment            | Not yet          |
-| MongoDB integration       | Not yet          |
-| Lobby UI                  | Not yet          |
-
----
-
 ## Folder Structure
 
 ```
@@ -73,35 +58,6 @@ voxelverse/
 ├── docs/            # Design notes, architecture
 ├── README.md
 ```
-
----
-
-## Demo
-
-> Demo video and screenshots will be added after final implementation.
-
----
-
-## Development Log
-
-**April 8–9, 2025**
-- GitHub repo created, folder structure finalized
-- Unity 3D project setup with working WASD movement
-- Backend rewritten using raw WebSocket (`ws`) for Unity compatibility
-- `.gitignore` updated for both Unity and Node
-- GitHub push successful with client + server
-
-**Common Issues Solved**
-- Socket.IO conflict with Unity → Switched to `ws`
-- `await void` compiler issue → Used `async Task` wrappers
-- Git untracked Unity files → Fixed with proper staging and `.gitignore`
-
----
-
-## Links
-
-- GitHub Repo: [bareerahanif/voxelverse](https://github.com/bareerahanif/voxelverse)
-- Cloud Link: *(to be added after EC2 deployment)*
 
 ---
 
